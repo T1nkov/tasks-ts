@@ -2,12 +2,9 @@
 // предложения. Напишите программу, которая преобразует первую букву каждого
 // слова в предложении в верхний регистр. Например, для предложения "hello
 // world" результатом должна быть строка "Hello World".
-
-const sentence: string[] = prompt().split(" ");
-
-for (let i = 0; i < sentence.length; i++) {
-  let myWord: string = "";
-  let word: string = sentence[i];
-
-  myWord = word[0].toLocaleUpperCase().slice(1, word.length);
+const sentence = "hello word";
+const arr3 = [];
+for (let i = 0; i < sentence.split(' ').length; i++) {
+    arr3[i] = arr3[i][0].toUpperCase() + arr[3].slice(1);
 }
+console.log(arr[0].slice(1));
