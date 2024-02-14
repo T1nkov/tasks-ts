@@ -27,12 +27,12 @@ for (let el of objArr) {
   console.log(el.author == "Булгаков" ? el : "banan");
 }
 
-let e: number = 0;
+let b: number = 0;
 
 do {
-  console.log(objArr[e].author == "Булгаков" ? objArr[e] : "banan");
-  e++;
-} while (e < objArr.length);
+  console.log(objArr[b].author == "Булгаков" ? objArr[b] : "banan");
+  b++;
+} while (b < objArr.length);
 
 objArr.forEach((el) => {
   return (el.author = "Булгаков");
