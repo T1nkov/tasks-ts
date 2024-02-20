@@ -11,7 +11,7 @@ function doA(a) {
   }
 } 
 
-console.log(doA(2, 3));
+console.log(doA(2));
 
 
 
