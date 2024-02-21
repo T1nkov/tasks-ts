@@ -2,8 +2,9 @@
 // getArea() (вычисление площади круга). Создайте экземпляр класса CircleR и
 // выведите площадь окружности. Площадь круга: π * r^2
 
-
-
-class CircleR{
-  
+class CircleR {
+  radius: number;
+  setRadius(a: number) {
+    this.radius = a;
+  }
 }
