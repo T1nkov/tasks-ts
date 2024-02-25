@@ -32,6 +32,7 @@ class ServerPost implements ServerPost {
       { email: "ad", pwd: "asd" },
       { email: "test", pwd: "asd" },
       { email: "Test", pwd: "test" },
+      { email: "Tessdft", pwd: "test" }
     ];
 
     const res: json[] = arr.filter((el) => el.email == json.email);
